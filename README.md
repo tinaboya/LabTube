@@ -2,7 +2,7 @@
   <img src="labtube.png" alt="Latte logo" width="180"/>
 </p>
 
-<h1 align="center">Latte</h1>
+<h1 align="center">LabTube</h1>
 
 <p align="center">
   <em>VideoMAE-style pre-training on ICU lab time series from MIMIC-IV and eICU</em>
