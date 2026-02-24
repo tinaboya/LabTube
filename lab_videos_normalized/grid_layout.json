@@ -1,0 +1,514 @@
+[
+  {
+    "index": 0,
+    "row": 0,
+    "col": 0,
+    "itemid": 50813,
+    "label": "Lactate",
+    "category": "Blood Gas"
+  },
+  {
+    "index": 1,
+    "row": 0,
+    "col": 1,
+    "itemid": 50861,
+    "label": "Alanine Aminotransferase (ALT)",
+    "category": "Chemistry"
+  },
+  {
+    "index": 2,
+    "row": 0,
+    "col": 2,
+    "itemid": 50862,
+    "label": "Albumin",
+    "category": "Chemistry"
+  },
+  {
+    "index": 3,
+    "row": 0,
+    "col": 3,
+    "itemid": 50863,
+    "label": "Alkaline Phosphatase",
+    "category": "Chemistry"
+  },
+  {
+    "index": 4,
+    "row": 0,
+    "col": 4,
+    "itemid": 50868,
+    "label": "Anion Gap",
+    "category": "Chemistry"
+  },
+  {
+    "index": 5,
+    "row": 0,
+    "col": 5,
+    "itemid": 50878,
+    "label": "Asparate Aminotransferase (AST)",
+    "category": "Chemistry"
+  },
+  {
+    "index": 6,
+    "row": 0,
+    "col": 6,
+    "itemid": 50882,
+    "label": "Bicarbonate",
+    "category": "Chemistry"
+  },
+  {
+    "index": 7,
+    "row": 0,
+    "col": 7,
+    "itemid": 50885,
+    "label": "Bilirubin, Total",
+    "category": "Chemistry"
+  },
+  {
+    "index": 8,
+    "row": 1,
+    "col": 0,
+    "itemid": 50893,
+    "label": "Calcium, Total",
+    "category": "Chemistry"
+  },
+  {
+    "index": 9,
+    "row": 1,
+    "col": 1,
+    "itemid": 50902,
+    "label": "Chloride",
+    "category": "Chemistry"
+  },
+  {
+    "index": 10,
+    "row": 1,
+    "col": 2,
+    "itemid": 50910,
+    "label": "Creatine Kinase (CK)",
+    "category": "Chemistry"
+  },
+  {
+    "index": 11,
+    "row": 1,
+    "col": 3,
+    "itemid": 50911,
+    "label": "Creatine Kinase, MB Isoenzyme",
+    "category": "Chemistry"
+  },
+  {
+    "index": 12,
+    "row": 1,
+    "col": 4,
+    "itemid": 50912,
+    "label": "Creatinine",
+    "category": "Chemistry"
+  },
+  {
+    "index": 13,
+    "row": 1,
+    "col": 5,
+    "itemid": 50920,
+    "label": "Estimated GFR (MDRD equation)",
+    "category": "Chemistry"
+  },
+  {
+    "index": 14,
+    "row": 1,
+    "col": 6,
+    "itemid": 50931,
+    "label": "Glucose",
+    "category": "Chemistry"
+  },
+  {
+    "index": 15,
+    "row": 1,
+    "col": 7,
+    "itemid": 50954,
+    "label": "Lactate Dehydrogenase (LD)",
+    "category": "Chemistry"
+  },
+  {
+    "index": 16,
+    "row": 2,
+    "col": 0,
+    "itemid": 50956,
+    "label": "Lipase",
+    "category": "Chemistry"
+  },
+  {
+    "index": 17,
+    "row": 2,
+    "col": 1,
+    "itemid": 50960,
+    "label": "Magnesium",
+    "category": "Chemistry"
+  },
+  {
+    "index": 18,
+    "row": 2,
+    "col": 2,
+    "itemid": 50970,
+    "label": "Phosphate",
+    "category": "Chemistry"
+  },
+  {
+    "index": 19,
+    "row": 2,
+    "col": 3,
+    "itemid": 50971,
+    "label": "Potassium",
+    "category": "Chemistry"
+  },
+  {
+    "index": 20,
+    "row": 2,
+    "col": 4,
+    "itemid": 50983,
+    "label": "Sodium",
+    "category": "Chemistry"
+  },
+  {
+    "index": 21,
+    "row": 2,
+    "col": 5,
+    "itemid": 51003,
+    "label": "Troponin T",
+    "category": "Chemistry"
+  },
+  {
+    "index": 22,
+    "row": 2,
+    "col": 6,
+    "itemid": 51006,
+    "label": "Urea Nitrogen",
+    "category": "Chemistry"
+  },
+  {
+    "index": 23,
+    "row": 2,
+    "col": 7,
+    "itemid": 51133,
+    "label": "Absolute Lymphocyte Count",
+    "category": "Hematology"
+  },
+  {
+    "index": 24,
+    "row": 3,
+    "col": 0,
+    "itemid": 51146,
+    "label": "Basophils",
+    "category": "Hematology"
+  },
+  {
+    "index": 25,
+    "row": 3,
+    "col": 1,
+    "itemid": 51200,
+    "label": "Eosinophils",
+    "category": "Hematology"
+  },
+  {
+    "index": 26,
+    "row": 3,
+    "col": 2,
+    "itemid": 51221,
+    "label": "Hematocrit",
+    "category": "Hematology"
+  },
+  {
+    "index": 27,
+    "row": 3,
+    "col": 3,
+    "itemid": 51222,
+    "label": "Hemoglobin",
+    "category": "Hematology"
+  },
+  {
+    "index": 28,
+    "row": 3,
+    "col": 4,
+    "itemid": 51237,
+    "label": "INR(PT)",
+    "category": "Hematology"
+  },
+  {
+    "index": 29,
+    "row": 3,
+    "col": 5,
+    "itemid": 51244,
+    "label": "Lymphocytes",
+    "category": "Hematology"
+  },
+  {
+    "index": 30,
+    "row": 3,
+    "col": 6,
+    "itemid": 51248,
+    "label": "MCH",
+    "category": "Hematology"
+  },
+  {
+    "index": 31,
+    "row": 3,
+    "col": 7,
+    "itemid": 51249,
+    "label": "MCHC",
+    "category": "Hematology"
+  },
+  {
+    "index": 32,
+    "row": 4,
+    "col": 0,
+    "itemid": 51250,
+    "label": "MCV",
+    "category": "Hematology"
+  },
+  {
+    "index": 33,
+    "row": 4,
+    "col": 1,
+    "itemid": 51254,
+    "label": "Monocytes",
+    "category": "Hematology"
+  },
+  {
+    "index": 34,
+    "row": 4,
+    "col": 2,
+    "itemid": 51256,
+    "label": "Neutrophils",
+    "category": "Hematology"
+  },
+  {
+    "index": 35,
+    "row": 4,
+    "col": 3,
+    "itemid": 51265,
+    "label": "Platelet Count",
+    "category": "Hematology"
+  },
+  {
+    "index": 36,
+    "row": 4,
+    "col": 4,
+    "itemid": 51274,
+    "label": "PT",
+    "category": "Hematology"
+  },
+  {
+    "index": 37,
+    "row": 4,
+    "col": 5,
+    "itemid": 51275,
+    "label": "PTT",
+    "category": "Hematology"
+  },
+  {
+    "index": 38,
+    "row": 4,
+    "col": 6,
+    "itemid": 51277,
+    "label": "RDW",
+    "category": "Hematology"
+  },
+  {
+    "index": 39,
+    "row": 4,
+    "col": 7,
+    "itemid": 51279,
+    "label": "Red Blood Cells",
+    "category": "Hematology"
+  },
+  {
+    "index": 40,
+    "row": 5,
+    "col": 0,
+    "itemid": 51301,
+    "label": "White Blood Cells",
+    "category": "Hematology"
+  },
+  {
+    "index": 41,
+    "row": 5,
+    "col": 1,
+    "itemid": 51463,
+    "label": "Bacteria",
+    "category": "Hematology"
+  },
+  {
+    "index": 42,
+    "row": 5,
+    "col": 2,
+    "itemid": 51464,
+    "label": "Bilirubin",
+    "category": "Hematology"
+  },
+  {
+    "index": 43,
+    "row": 5,
+    "col": 3,
+    "itemid": 51466,
+    "label": "Blood",
+    "category": "Hematology"
+  },
+  {
+    "index": 44,
+    "row": 5,
+    "col": 4,
+    "itemid": 51476,
+    "label": "Epithelial Cells",
+    "category": "Hematology"
+  },
+  {
+    "index": 45,
+    "row": 5,
+    "col": 5,
+    "itemid": 51478,
+    "label": "Glucose",
+    "category": "Hematology"
+  },
+  {
+    "index": 46,
+    "row": 5,
+    "col": 6,
+    "itemid": 51484,
+    "label": "Ketone",
+    "category": "Hematology"
+  },
+  {
+    "index": 47,
+    "row": 5,
+    "col": 7,
+    "itemid": 51486,
+    "label": "Leukocytes",
+    "category": "Hematology"
+  },
+  {
+    "index": 48,
+    "row": 6,
+    "col": 0,
+    "itemid": 51487,
+    "label": "Nitrite",
+    "category": "Hematology"
+  },
+  {
+    "index": 49,
+    "row": 6,
+    "col": 1,
+    "itemid": 51491,
+    "label": "pH",
+    "category": "Hematology"
+  },
+  {
+    "index": 50,
+    "row": 6,
+    "col": 2,
+    "itemid": 51492,
+    "label": "Protein",
+    "category": "Hematology"
+  },
+  {
+    "index": 51,
+    "row": 6,
+    "col": 3,
+    "itemid": 51493,
+    "label": "RBC",
+    "category": "Hematology"
+  },
+  {
+    "index": 52,
+    "row": 6,
+    "col": 4,
+    "itemid": 51498,
+    "label": "Specific Gravity",
+    "category": "Hematology"
+  },
+  {
+    "index": 53,
+    "row": 6,
+    "col": 5,
+    "itemid": 51506,
+    "label": "Urine Appearance",
+    "category": "Hematology"
+  },
+  {
+    "index": 54,
+    "row": 6,
+    "col": 6,
+    "itemid": 51508,
+    "label": "Urine Color",
+    "category": "Hematology"
+  },
+  {
+    "index": 55,
+    "row": 6,
+    "col": 7,
+    "itemid": 51514,
+    "label": "Urobilinogen",
+    "category": "Hematology"
+  },
+  {
+    "index": 56,
+    "row": 7,
+    "col": 0,
+    "itemid": 51516,
+    "label": "WBC",
+    "category": "Hematology"
+  },
+  {
+    "index": 57,
+    "row": 7,
+    "col": 1,
+    "itemid": 51519,
+    "label": "Yeast",
+    "category": "Hematology"
+  },
+  {
+    "index": 58,
+    "row": 7,
+    "col": 2,
+    "itemid": 52069,
+    "label": "Absolute Basophil Count",
+    "category": "Hematology"
+  },
+  {
+    "index": 59,
+    "row": 7,
+    "col": 3,
+    "itemid": 52073,
+    "label": "Absolute Eosinophil Count",
+    "category": "Hematology"
+  },
+  {
+    "index": 60,
+    "row": 7,
+    "col": 4,
+    "itemid": 52074,
+    "label": "Absolute Monocyte Count",
+    "category": "Hematology"
+  },
+  {
+    "index": 61,
+    "row": 7,
+    "col": 5,
+    "itemid": 52075,
+    "label": "Absolute Neutrophil Count",
+    "category": "Hematology"
+  },
+  {
+    "index": 62,
+    "row": 7,
+    "col": 6,
+    "itemid": 52135,
+    "label": "Immature Granulocytes",
+    "category": "Hematology"
+  },
+  {
+    "index": 63,
+    "row": 7,
+    "col": 7,
+    "itemid": 52172,
+    "label": "RDW-SD",
+    "category": "Hematology"
+  }
+]

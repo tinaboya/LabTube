@@ -1,0 +1,650 @@
+{
+  "clip_range": [
+    -10.0,
+    10.0
+  ],
+  "n_labs": 64,
+  "n_log_transformed": 15,
+  "labs": [
+    {
+      "row": 0,
+      "col": 0,
+      "itemid": 50813,
+      "label": "Lactate",
+      "log_transform": false,
+      "mean": 7.890909,
+      "std": 5.156218,
+      "count": 22
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "itemid": 50861,
+      "label": "Alanine Aminotransferase (ALT)",
+      "log_transform": true,
+      "mean": 4.700506,
+      "std": 1.332871,
+      "count": 17
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "itemid": 50862,
+      "label": "Albumin",
+      "log_transform": false,
+      "mean": 2.433333,
+      "std": 0.968848,
+      "count": 6
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "itemid": 50863,
+      "label": "Alkaline Phosphatase",
+      "log_transform": true,
+      "mean": 4.454222,
+      "std": 0.505105,
+      "count": 17
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "itemid": 50868,
+      "label": "Anion Gap",
+      "log_transform": false,
+      "mean": 21.045455,
+      "std": 3.618435,
+      "count": 22
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "itemid": 50878,
+      "label": "Asparate Aminotransferase (AST)",
+      "log_transform": true,
+      "mean": 5.318844,
+      "std": 1.119153,
+      "count": 16
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "itemid": 50882,
+      "label": "Bicarbonate",
+      "log_transform": false,
+      "mean": 16.454545,
+      "std": 3.319886,
+      "count": 22
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "itemid": 50885,
+      "label": "Bilirubin, Total",
+      "log_transform": true,
+      "mean": 0.568792,
+      "std": 0.399462,
+      "count": 19
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "itemid": 50893,
+      "label": "Calcium, Total",
+      "log_transform": false,
+      "mean": 7.981818,
+      "std": 0.441465,
+      "count": 22
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "itemid": 50902,
+      "label": "Chloride",
+      "log_transform": false,
+      "mean": 103.818182,
+      "std": 7.0888,
+      "count": 22
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "itemid": 50910,
+      "label": "Creatine Kinase (CK)",
+      "log_transform": true,
+      "mean": 6.788732,
+      "std": 1.885745,
+      "count": 8
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "itemid": 50911,
+      "label": "Creatine Kinase, MB Isoenzyme",
+      "log_transform": true,
+      "mean": 3.298338,
+      "std": 2.07505,
+      "count": 11
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "itemid": 50912,
+      "label": "Creatinine",
+      "log_transform": false,
+      "mean": 2.722727,
+      "std": 0.932448,
+      "count": 22
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "itemid": 50920,
+      "label": "Estimated GFR (MDRD equation)",
+      "log_transform": false,
+      "mean": 0.0,
+      "std": 1.0,
+      "count": 0
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "itemid": 50931,
+      "label": "Glucose",
+      "log_transform": false,
+      "mean": 204.409091,
+      "std": 132.843861,
+      "count": 22
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "itemid": 50954,
+      "label": "Lactate Dehydrogenase (LD)",
+      "log_transform": true,
+      "mean": 7.053653,
+      "std": 0.440377,
+      "count": 17
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "itemid": 50956,
+      "label": "Lipase",
+      "log_transform": true,
+      "mean": 6.073045,
+      "std": 1.0,
+      "count": 1
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "itemid": 50960,
+      "label": "Magnesium",
+      "log_transform": false,
+      "mean": 2.028571,
+      "std": 0.333381,
+      "count": 21
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "itemid": 50970,
+      "label": "Phosphate",
+      "log_transform": false,
+      "mean": 4.440909,
+      "std": 1.980779,
+      "count": 22
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "itemid": 50971,
+      "label": "Potassium",
+      "log_transform": false,
+      "mean": 4.672727,
+      "std": 0.784482,
+      "count": 22
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "itemid": 50983,
+      "label": "Sodium",
+      "log_transform": false,
+      "mean": 138.909091,
+      "std": 7.203895,
+      "count": 22
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "itemid": 51003,
+      "label": "Troponin T",
+      "log_transform": true,
+      "mean": 0.922775,
+      "std": 1.01368,
+      "count": 11
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "itemid": 51006,
+      "label": "Urea Nitrogen",
+      "log_transform": false,
+      "mean": 64.772727,
+      "std": 40.662293,
+      "count": 22
+    },
+    {
+      "row": 2,
+      "col": 7,
+      "itemid": 51133,
+      "label": "Absolute Lymphocyte Count",
+      "log_transform": false,
+      "mean": 4.97,
+      "std": 5.822791,
+      "count": 18
+    },
+    {
+      "row": 3,
+      "col": 0,
+      "itemid": 51146,
+      "label": "Basophils",
+      "log_transform": false,
+      "mean": 0.111111,
+      "std": 0.249444,
+      "count": 18
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "itemid": 51200,
+      "label": "Eosinophils",
+      "log_transform": false,
+      "mean": 0.344444,
+      "std": 0.589339,
+      "count": 18
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "itemid": 51221,
+      "label": "Hematocrit",
+      "log_transform": false,
+      "mean": 30.682609,
+      "std": 8.727785,
+      "count": 23
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "itemid": 51222,
+      "label": "Hemoglobin",
+      "log_transform": false,
+      "mean": 9.895652,
+      "std": 2.476522,
+      "count": 23
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "itemid": 51237,
+      "label": "INR(PT)",
+      "log_transform": false,
+      "mean": 2.5,
+      "std": 3.267495,
+      "count": 24
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "itemid": 51244,
+      "label": "Lymphocytes",
+      "log_transform": false,
+      "mean": 11.833333,
+      "std": 8.098802,
+      "count": 18
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "itemid": 51248,
+      "label": "MCH",
+      "log_transform": false,
+      "mean": 28.834783,
+      "std": 1.464616,
+      "count": 23
+    },
+    {
+      "row": 3,
+      "col": 7,
+      "itemid": 51249,
+      "label": "MCHC",
+      "log_transform": false,
+      "mean": 32.556521,
+      "std": 1.411584,
+      "count": 23
+    },
+    {
+      "row": 4,
+      "col": 0,
+      "itemid": 51250,
+      "label": "MCV",
+      "log_transform": false,
+      "mean": 88.826087,
+      "std": 7.438549,
+      "count": 23
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "itemid": 51254,
+      "label": "Monocytes",
+      "log_transform": false,
+      "mean": 7.911111,
+      "std": 9.527909,
+      "count": 18
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "itemid": 51256,
+      "label": "Neutrophils",
+      "log_transform": false,
+      "mean": 61.566667,
+      "std": 30.784641,
+      "count": 18
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "itemid": 51265,
+      "label": "Platelet Count",
+      "log_transform": true,
+      "mean": 4.325243,
+      "std": 0.742036,
+      "count": 23
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "itemid": 51274,
+      "label": "PT",
+      "log_transform": false,
+      "mean": 27.8375,
+      "std": 37.652193,
+      "count": 24
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "itemid": 51275,
+      "label": "PTT",
+      "log_transform": false,
+      "mean": 44.6125,
+      "std": 34.032316,
+      "count": 24
+    },
+    {
+      "row": 4,
+      "col": 6,
+      "itemid": 51277,
+      "label": "RDW",
+      "log_transform": false,
+      "mean": 17.082609,
+      "std": 2.802702,
+      "count": 23
+    },
+    {
+      "row": 4,
+      "col": 7,
+      "itemid": 51279,
+      "label": "Red Blood Cells",
+      "log_transform": false,
+      "mean": 3.417826,
+      "std": 0.785094,
+      "count": 23
+    },
+    {
+      "row": 5,
+      "col": 0,
+      "itemid": 51301,
+      "label": "White Blood Cells",
+      "log_transform": true,
+      "mean": 3.129067,
+      "std": 0.9628,
+      "count": 23
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "itemid": 51463,
+      "label": "Bacteria",
+      "log_transform": false,
+      "mean": 0.0,
+      "std": 1.0,
+      "count": 0
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "itemid": 51464,
+      "label": "Bilirubin",
+      "log_transform": false,
+      "mean": 0.0,
+      "std": 1.0,
+      "count": 0
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "itemid": 51466,
+      "label": "Blood",
+      "log_transform": false,
+      "mean": 0.0,
+      "std": 1.0,
+      "count": 0
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "itemid": 51476,
+      "label": "Epithelial Cells",
+      "log_transform": false,
+      "mean": 2.0,
+      "std": 1.0,
+      "count": 1
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "itemid": 51478,
+      "label": "Glucose",
+      "log_transform": false,
+      "mean": 70.0,
+      "std": 1.0,
+      "count": 1
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "itemid": 51484,
+      "label": "Ketone",
+      "log_transform": false,
+      "mean": 0.0,
+      "std": 1.0,
+      "count": 0
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "itemid": 51486,
+      "label": "Leukocytes",
+      "log_transform": false,
+      "mean": 0.0,
+      "std": 1.0,
+      "count": 0
+    },
+    {
+      "row": 6,
+      "col": 0,
+      "itemid": 51487,
+      "label": "Nitrite",
+      "log_transform": false,
+      "mean": 0.0,
+      "std": 1.0,
+      "count": 0
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "itemid": 51491,
+      "label": "pH",
+      "log_transform": false,
+      "mean": 6.0,
+      "std": 1.0,
+      "count": 1
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "itemid": 51492,
+      "label": "Protein",
+      "log_transform": false,
+      "mean": 100.0,
+      "std": 1.0,
+      "count": 1
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "itemid": 51493,
+      "label": "RBC",
+      "log_transform": false,
+      "mean": 1.0,
+      "std": 1.0,
+      "count": 1
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "itemid": 51498,
+      "label": "Specific Gravity",
+      "log_transform": false,
+      "mean": 1.014,
+      "std": 1.0,
+      "count": 1
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "itemid": 51506,
+      "label": "Urine Appearance",
+      "log_transform": false,
+      "mean": 0.0,
+      "std": 1.0,
+      "count": 0
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "itemid": 51508,
+      "label": "Urine Color",
+      "log_transform": false,
+      "mean": 0.0,
+      "std": 1.0,
+      "count": 0
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "itemid": 51514,
+      "label": "Urobilinogen",
+      "log_transform": false,
+      "mean": 0.0,
+      "std": 1.0,
+      "count": 0
+    },
+    {
+      "row": 7,
+      "col": 0,
+      "itemid": 51516,
+      "label": "WBC",
+      "log_transform": false,
+      "mean": 24.0,
+      "std": 1.0,
+      "count": 1
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "itemid": 51519,
+      "label": "Yeast",
+      "log_transform": false,
+      "mean": 0.0,
+      "std": 1.0,
+      "count": 0
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "itemid": 52069,
+      "label": "Absolute Basophil Count",
+      "log_transform": true,
+      "mean": 0.04467,
+      "std": 0.133655,
+      "count": 18
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "itemid": 52073,
+      "label": "Absolute Eosinophil Count",
+      "log_transform": true,
+      "mean": 0.147424,
+      "std": 0.30602,
+      "count": 18
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "itemid": 52074,
+      "label": "Absolute Monocyte Count",
+      "log_transform": true,
+      "mean": 1.100628,
+      "std": 1.247388,
+      "count": 18
+    },
+    {
+      "row": 7,
+      "col": 5,
+      "itemid": 52075,
+      "label": "Absolute Neutrophil Count",
+      "log_transform": true,
+      "mean": 2.622463,
+      "std": 0.633823,
+      "count": 18
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "itemid": 52135,
+      "label": "Immature Granulocytes",
+      "log_transform": false,
+      "mean": 1.55,
+      "std": 0.420317,
+      "count": 4
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "itemid": 52172,
+      "label": "RDW-SD",
+      "log_transform": false,
+      "mean": 53.308695,
+      "std": 3.26175,
+      "count": 23
+    }
+  ]
+}

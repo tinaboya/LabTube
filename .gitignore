@@ -1,0 +1,70 @@
+# ============================================================
+# RESTRICTED CLINICAL DATA — NEVER COMMIT
+# These datasets require PhysioNet data access agreements.
+# Uploading them to a public or private repository is a
+# violation of the data use agreement.
+# ============================================================
+MIMIC4/
+eICU/
+physionet.org/
+
+# ============================================================
+# GENERATED DATA FILES
+# Large binary files produced by the pipeline scripts.
+# Regenerate locally by running the pipeline.
+# ============================================================
+lab_videos/
+lab_images/
+lab_videos_normalized/*.npy
+
+# ============================================================
+# LOG FILES
+# ============================================================
+*.log
+admission_to_video_output.log
+
+# ============================================================
+# PYTHON ENVIRONMENT & CACHE
+# ============================================================
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ============================================================
+# MACOS METADATA
+# ============================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ============================================================
+# TEMPORARY FILES
+# ============================================================
+.tmp/
+*.tmp
+*.swp
+*.swo
+
+# ============================================================
+# JUPYTER
+# ============================================================
+.ipynb_checkpoints/
+
+# ============================================================
+# WHAT IS TRACKED (for reference)
+# ✅ scripts/          — all Python pipeline scripts
+# ✅ docs/             — markdown reports and figures
+# ✅ pyproject.toml    — project metadata and dependencies
+# ✅ requirements.txt  — pip requirements
+# ✅ uv.lock           — reproducible lock file
+# ✅ frame_layout.txt  — grid layout spec
+# ✅ labtube.png       — project figure
+# ✅ lab_videos_normalized/*.json  — small metadata files
+# ============================================================

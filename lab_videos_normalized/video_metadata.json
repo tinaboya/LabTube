@@ -1,0 +1,5293 @@
+[
+  {
+    "hadm_id": 23467250,
+    "video_shape": [
+      24,
+      8,
+      8
+    ],
+    "window_hours": 24.0,
+    "bin_hours": 1,
+    "n_bins": 24,
+    "video_summary": {
+      "total_cells": 1536,
+      "filled_cells": 184,
+      "fill_pct": 11.98,
+      "frames_with_data": 5,
+      "frames_empty": 19,
+      "temporal_density_pct": 20.8,
+      "total_specimens_merged": 15,
+      "specimen_ids": [
+        13377093,
+        15731322,
+        28079653,
+        45719692,
+        46557101,
+        48934612,
+        50003264,
+        55571051,
+        56509475,
+        57647239,
+        60343232,
+        85271656,
+        85723343,
+        95587788,
+        97804105
+      ]
+    },
+    "frames": [
+      {
+        "bin": 0,
+        "hour_range": "0\u20131h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 1,
+        "hour_range": "1\u20132h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 2,
+        "hour_range": "2\u20133h",
+        "n_cells_filled": 39,
+        "fill_pct": 60.9,
+        "n_specimens_merged": 3,
+        "specimen_ids": [
+          45719692,
+          48934612,
+          97804105
+        ],
+        "charttimes_hours": [
+          2.45
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 0.0,
+        "value_max": 1174.0,
+        "labs_present": [
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50885,
+            "label": "Bilirubin, Total"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50910,
+            "label": "Creatine Kinase (CK)"
+          },
+          {
+            "itemid": 50911,
+            "label": "Creatine Kinase, MB Isoenzyme"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50954,
+            "label": "Lactate Dehydrogenase (LD)"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51003,
+            "label": "Troponin T"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51133,
+            "label": "Absolute Lymphocyte Count"
+          },
+          {
+            "itemid": 51146,
+            "label": "Basophils"
+          },
+          {
+            "itemid": 51200,
+            "label": "Eosinophils"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51244,
+            "label": "Lymphocytes"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51254,
+            "label": "Monocytes"
+          },
+          {
+            "itemid": 51256,
+            "label": "Neutrophils"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52069,
+            "label": "Absolute Basophil Count"
+          },
+          {
+            "itemid": 52073,
+            "label": "Absolute Eosinophil Count"
+          },
+          {
+            "itemid": 52074,
+            "label": "Absolute Monocyte Count"
+          },
+          {
+            "itemid": 52075,
+            "label": "Absolute Neutrophil Count"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 3,
+        "hour_range": "3\u20134h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 4,
+        "hour_range": "4\u20135h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 5,
+        "hour_range": "5\u20136h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 6,
+        "hour_range": "6\u20137h",
+        "n_cells_filled": 40,
+        "fill_pct": 62.5,
+        "n_specimens_merged": 3,
+        "specimen_ids": [
+          13377093,
+          28079653,
+          55571051
+        ],
+        "charttimes_hours": [
+          6.45
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 0.0,
+        "value_max": 1272.0,
+        "labs_present": [
+          {
+            "itemid": 50861,
+            "label": "Alanine Aminotransferase (ALT)"
+          },
+          {
+            "itemid": 50863,
+            "label": "Alkaline Phosphatase"
+          },
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50878,
+            "label": "Asparate Aminotransferase (AST)"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50885,
+            "label": "Bilirubin, Total"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50954,
+            "label": "Lactate Dehydrogenase (LD)"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51003,
+            "label": "Troponin T"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51133,
+            "label": "Absolute Lymphocyte Count"
+          },
+          {
+            "itemid": 51146,
+            "label": "Basophils"
+          },
+          {
+            "itemid": 51200,
+            "label": "Eosinophils"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51244,
+            "label": "Lymphocytes"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51254,
+            "label": "Monocytes"
+          },
+          {
+            "itemid": 51256,
+            "label": "Neutrophils"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52069,
+            "label": "Absolute Basophil Count"
+          },
+          {
+            "itemid": 52073,
+            "label": "Absolute Eosinophil Count"
+          },
+          {
+            "itemid": 52074,
+            "label": "Absolute Monocyte Count"
+          },
+          {
+            "itemid": 52075,
+            "label": "Absolute Neutrophil Count"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 7,
+        "hour_range": "7\u20138h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 8,
+        "hour_range": "8\u20139h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 9,
+        "hour_range": "9\u201310h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 10,
+        "hour_range": "10\u201311h",
+        "n_cells_filled": 35,
+        "fill_pct": 54.7,
+        "n_specimens_merged": 3,
+        "specimen_ids": [
+          15731322,
+          56509475,
+          95587788
+        ],
+        "charttimes_hours": [
+          10.52
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 0.0,
+        "value_max": 1467.0,
+        "labs_present": [
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50885,
+            "label": "Bilirubin, Total"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50954,
+            "label": "Lactate Dehydrogenase (LD)"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51133,
+            "label": "Absolute Lymphocyte Count"
+          },
+          {
+            "itemid": 51146,
+            "label": "Basophils"
+          },
+          {
+            "itemid": 51200,
+            "label": "Eosinophils"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51244,
+            "label": "Lymphocytes"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51254,
+            "label": "Monocytes"
+          },
+          {
+            "itemid": 51256,
+            "label": "Neutrophils"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52069,
+            "label": "Absolute Basophil Count"
+          },
+          {
+            "itemid": 52073,
+            "label": "Absolute Eosinophil Count"
+          },
+          {
+            "itemid": 52074,
+            "label": "Absolute Monocyte Count"
+          },
+          {
+            "itemid": 52075,
+            "label": "Absolute Neutrophil Count"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 11,
+        "hour_range": "11\u201312h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 12,
+        "hour_range": "12\u201313h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 13,
+        "hour_range": "13\u201314h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 14,
+        "hour_range": "14\u201315h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 15,
+        "hour_range": "15\u201316h",
+        "n_cells_filled": 35,
+        "fill_pct": 54.7,
+        "n_specimens_merged": 3,
+        "specimen_ids": [
+          57647239,
+          60343232,
+          85723343
+        ],
+        "charttimes_hours": [
+          15.08
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 0.0,
+        "value_max": 1517.0,
+        "labs_present": [
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50954,
+            "label": "Lactate Dehydrogenase (LD)"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51133,
+            "label": "Absolute Lymphocyte Count"
+          },
+          {
+            "itemid": 51146,
+            "label": "Basophils"
+          },
+          {
+            "itemid": 51200,
+            "label": "Eosinophils"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51244,
+            "label": "Lymphocytes"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51254,
+            "label": "Monocytes"
+          },
+          {
+            "itemid": 51256,
+            "label": "Neutrophils"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52069,
+            "label": "Absolute Basophil Count"
+          },
+          {
+            "itemid": 52073,
+            "label": "Absolute Eosinophil Count"
+          },
+          {
+            "itemid": 52074,
+            "label": "Absolute Monocyte Count"
+          },
+          {
+            "itemid": 52075,
+            "label": "Absolute Neutrophil Count"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 16,
+        "hour_range": "16\u201317h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 17,
+        "hour_range": "17\u201318h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 18,
+        "hour_range": "18\u201319h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 19,
+        "hour_range": "19\u201320h",
+        "n_cells_filled": 35,
+        "fill_pct": 54.7,
+        "n_specimens_merged": 3,
+        "specimen_ids": [
+          46557101,
+          50003264,
+          85271656
+        ],
+        "charttimes_hours": [
+          19.18
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 0.0,
+        "value_max": 1607.0,
+        "labs_present": [
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50954,
+            "label": "Lactate Dehydrogenase (LD)"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51133,
+            "label": "Absolute Lymphocyte Count"
+          },
+          {
+            "itemid": 51146,
+            "label": "Basophils"
+          },
+          {
+            "itemid": 51200,
+            "label": "Eosinophils"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51244,
+            "label": "Lymphocytes"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51254,
+            "label": "Monocytes"
+          },
+          {
+            "itemid": 51256,
+            "label": "Neutrophils"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52069,
+            "label": "Absolute Basophil Count"
+          },
+          {
+            "itemid": 52073,
+            "label": "Absolute Eosinophil Count"
+          },
+          {
+            "itemid": 52074,
+            "label": "Absolute Monocyte Count"
+          },
+          {
+            "itemid": 52075,
+            "label": "Absolute Neutrophil Count"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 20,
+        "hour_range": "20\u201321h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 21,
+        "hour_range": "21\u201322h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 22,
+        "hour_range": "22\u201323h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 23,
+        "hour_range": "23\u201324h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      }
+    ]
+  },
+  {
+    "hadm_id": 28170836,
+    "video_shape": [
+      24,
+      8,
+      8
+    ],
+    "window_hours": 24.0,
+    "bin_hours": 1,
+    "n_bins": 24,
+    "video_summary": {
+      "total_cells": 1536,
+      "filled_cells": 207,
+      "fill_pct": 13.48,
+      "frames_with_data": 9,
+      "frames_empty": 15,
+      "temporal_density_pct": 37.5,
+      "total_specimens_merged": 22,
+      "specimen_ids": [
+        1982827,
+        3019802,
+        6207366,
+        7422978,
+        15230502,
+        16105626,
+        19522300,
+        30455196,
+        33443924,
+        40860897,
+        43323988,
+        43513803,
+        50128172,
+        51947902,
+        52404873,
+        52656991,
+        53878484,
+        86548915,
+        87815838,
+        88576515,
+        93338651,
+        98488327
+      ]
+    },
+    "frames": [
+      {
+        "bin": 0,
+        "hour_range": "0\u20131h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 1,
+        "hour_range": "1\u20132h",
+        "n_cells_filled": 34,
+        "fill_pct": 53.1,
+        "n_specimens_merged": 4,
+        "specimen_ids": [
+          33443924,
+          43513803,
+          51947902,
+          98488327
+        ],
+        "charttimes_hours": [
+          1.27,
+          1.65
+        ],
+        "time_span_minutes": 23.0,
+        "value_min": 0.23,
+        "value_max": 607.0,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          },
+          {
+            "itemid": 50861,
+            "label": "Alanine Aminotransferase (ALT)"
+          },
+          {
+            "itemid": 50862,
+            "label": "Albumin"
+          },
+          {
+            "itemid": 50863,
+            "label": "Alkaline Phosphatase"
+          },
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50878,
+            "label": "Asparate Aminotransferase (AST)"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50885,
+            "label": "Bilirubin, Total"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50910,
+            "label": "Creatine Kinase (CK)"
+          },
+          {
+            "itemid": 50911,
+            "label": "Creatine Kinase, MB Isoenzyme"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50954,
+            "label": "Lactate Dehydrogenase (LD)"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51003,
+            "label": "Troponin T"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 2,
+        "hour_range": "2\u20133h",
+        "n_cells_filled": 1,
+        "fill_pct": 1.6,
+        "n_specimens_merged": 1,
+        "specimen_ids": [
+          52656991
+        ],
+        "charttimes_hours": [
+          2.03
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 6.4,
+        "value_max": 6.4,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          }
+        ]
+      },
+      {
+        "bin": 3,
+        "hour_range": "3\u20134h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 4,
+        "hour_range": "4\u20135h",
+        "n_cells_filled": 45,
+        "fill_pct": 70.3,
+        "n_specimens_merged": 3,
+        "specimen_ids": [
+          3019802,
+          52404873,
+          93338651
+        ],
+        "charttimes_hours": [
+          4.68
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 0.0,
+        "value_max": 742.0,
+        "labs_present": [
+          {
+            "itemid": 50861,
+            "label": "Alanine Aminotransferase (ALT)"
+          },
+          {
+            "itemid": 50862,
+            "label": "Albumin"
+          },
+          {
+            "itemid": 50863,
+            "label": "Alkaline Phosphatase"
+          },
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50878,
+            "label": "Asparate Aminotransferase (AST)"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50885,
+            "label": "Bilirubin, Total"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50910,
+            "label": "Creatine Kinase (CK)"
+          },
+          {
+            "itemid": 50911,
+            "label": "Creatine Kinase, MB Isoenzyme"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50954,
+            "label": "Lactate Dehydrogenase (LD)"
+          },
+          {
+            "itemid": 50956,
+            "label": "Lipase"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51003,
+            "label": "Troponin T"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51133,
+            "label": "Absolute Lymphocyte Count"
+          },
+          {
+            "itemid": 51146,
+            "label": "Basophils"
+          },
+          {
+            "itemid": 51200,
+            "label": "Eosinophils"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51244,
+            "label": "Lymphocytes"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51254,
+            "label": "Monocytes"
+          },
+          {
+            "itemid": 51256,
+            "label": "Neutrophils"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52069,
+            "label": "Absolute Basophil Count"
+          },
+          {
+            "itemid": 52073,
+            "label": "Absolute Eosinophil Count"
+          },
+          {
+            "itemid": 52074,
+            "label": "Absolute Monocyte Count"
+          },
+          {
+            "itemid": 52075,
+            "label": "Absolute Neutrophil Count"
+          },
+          {
+            "itemid": 52135,
+            "label": "Immature Granulocytes"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 5,
+        "hour_range": "5\u20136h",
+        "n_cells_filled": 1,
+        "fill_pct": 1.6,
+        "n_specimens_merged": 1,
+        "specimen_ids": [
+          86548915
+        ],
+        "charttimes_hours": [
+          5.32
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 3.8,
+        "value_max": 3.8,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          }
+        ]
+      },
+      {
+        "bin": 6,
+        "hour_range": "6\u20137h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 7,
+        "hour_range": "7\u20138h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 8,
+        "hour_range": "8\u20139h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 9,
+        "hour_range": "9\u201310h",
+        "n_cells_filled": 42,
+        "fill_pct": 65.6,
+        "n_specimens_merged": 4,
+        "specimen_ids": [
+          1982827,
+          6207366,
+          16105626,
+          19522300
+        ],
+        "charttimes_hours": [
+          9.82,
+          9.9
+        ],
+        "time_span_minutes": 5.0,
+        "value_min": 0.0,
+        "value_max": 321.0,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          },
+          {
+            "itemid": 50861,
+            "label": "Alanine Aminotransferase (ALT)"
+          },
+          {
+            "itemid": 50863,
+            "label": "Alkaline Phosphatase"
+          },
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50878,
+            "label": "Asparate Aminotransferase (AST)"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50885,
+            "label": "Bilirubin, Total"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50911,
+            "label": "Creatine Kinase, MB Isoenzyme"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51003,
+            "label": "Troponin T"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51133,
+            "label": "Absolute Lymphocyte Count"
+          },
+          {
+            "itemid": 51146,
+            "label": "Basophils"
+          },
+          {
+            "itemid": 51200,
+            "label": "Eosinophils"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51244,
+            "label": "Lymphocytes"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51254,
+            "label": "Monocytes"
+          },
+          {
+            "itemid": 51256,
+            "label": "Neutrophils"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52069,
+            "label": "Absolute Basophil Count"
+          },
+          {
+            "itemid": 52073,
+            "label": "Absolute Eosinophil Count"
+          },
+          {
+            "itemid": 52074,
+            "label": "Absolute Monocyte Count"
+          },
+          {
+            "itemid": 52075,
+            "label": "Absolute Neutrophil Count"
+          },
+          {
+            "itemid": 52135,
+            "label": "Immature Granulocytes"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 10,
+        "hour_range": "10\u201311h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 11,
+        "hour_range": "11\u201312h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 12,
+        "hour_range": "12\u201313h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 13,
+        "hour_range": "13\u201314h",
+        "n_cells_filled": 7,
+        "fill_pct": 10.9,
+        "n_specimens_merged": 1,
+        "specimen_ids": [
+          40860897
+        ],
+        "charttimes_hours": [
+          13.15
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 1.0,
+        "value_max": 100.0,
+        "labs_present": [
+          {
+            "itemid": 51476,
+            "label": "Epithelial Cells"
+          },
+          {
+            "itemid": 51478,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 51491,
+            "label": "pH"
+          },
+          {
+            "itemid": 51492,
+            "label": "Protein"
+          },
+          {
+            "itemid": 51493,
+            "label": "RBC"
+          },
+          {
+            "itemid": 51498,
+            "label": "Specific Gravity"
+          },
+          {
+            "itemid": 51516,
+            "label": "WBC"
+          }
+        ]
+      },
+      {
+        "bin": 14,
+        "hour_range": "14\u201315h",
+        "n_cells_filled": 34,
+        "fill_pct": 53.1,
+        "n_specimens_merged": 4,
+        "specimen_ids": [
+          15230502,
+          30455196,
+          50128172,
+          88576515
+        ],
+        "charttimes_hours": [
+          14.57,
+          14.87
+        ],
+        "time_span_minutes": 18.0,
+        "value_min": 0.34,
+        "value_max": 635.0,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          },
+          {
+            "itemid": 50861,
+            "label": "Alanine Aminotransferase (ALT)"
+          },
+          {
+            "itemid": 50862,
+            "label": "Albumin"
+          },
+          {
+            "itemid": 50863,
+            "label": "Alkaline Phosphatase"
+          },
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50878,
+            "label": "Asparate Aminotransferase (AST)"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50885,
+            "label": "Bilirubin, Total"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50910,
+            "label": "Creatine Kinase (CK)"
+          },
+          {
+            "itemid": 50911,
+            "label": "Creatine Kinase, MB Isoenzyme"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50954,
+            "label": "Lactate Dehydrogenase (LD)"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51003,
+            "label": "Troponin T"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 15,
+        "hour_range": "15\u201316h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 16,
+        "hour_range": "16\u201317h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 17,
+        "hour_range": "17\u201318h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 18,
+        "hour_range": "18\u201319h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 19,
+        "hour_range": "19\u201320h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 20,
+        "hour_range": "20\u201321h",
+        "n_cells_filled": 42,
+        "fill_pct": 65.6,
+        "n_specimens_merged": 3,
+        "specimen_ids": [
+          7422978,
+          43323988,
+          53878484
+        ],
+        "charttimes_hours": [
+          20.95
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 0.0,
+        "value_max": 592.0,
+        "labs_present": [
+          {
+            "itemid": 50861,
+            "label": "Alanine Aminotransferase (ALT)"
+          },
+          {
+            "itemid": 50863,
+            "label": "Alkaline Phosphatase"
+          },
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50878,
+            "label": "Asparate Aminotransferase (AST)"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50885,
+            "label": "Bilirubin, Total"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50911,
+            "label": "Creatine Kinase, MB Isoenzyme"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50954,
+            "label": "Lactate Dehydrogenase (LD)"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51003,
+            "label": "Troponin T"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51133,
+            "label": "Absolute Lymphocyte Count"
+          },
+          {
+            "itemid": 51146,
+            "label": "Basophils"
+          },
+          {
+            "itemid": 51200,
+            "label": "Eosinophils"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51244,
+            "label": "Lymphocytes"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51254,
+            "label": "Monocytes"
+          },
+          {
+            "itemid": 51256,
+            "label": "Neutrophils"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52069,
+            "label": "Absolute Basophil Count"
+          },
+          {
+            "itemid": 52073,
+            "label": "Absolute Eosinophil Count"
+          },
+          {
+            "itemid": 52074,
+            "label": "Absolute Monocyte Count"
+          },
+          {
+            "itemid": 52075,
+            "label": "Absolute Neutrophil Count"
+          },
+          {
+            "itemid": 52135,
+            "label": "Immature Granulocytes"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 21,
+        "hour_range": "21\u201322h",
+        "n_cells_filled": 1,
+        "fill_pct": 1.6,
+        "n_specimens_merged": 1,
+        "specimen_ids": [
+          87815838
+        ],
+        "charttimes_hours": [
+          21.25
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 3.5,
+        "value_max": 3.5,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          }
+        ]
+      },
+      {
+        "bin": 22,
+        "hour_range": "22\u201323h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 23,
+        "hour_range": "23\u201324h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      }
+    ]
+  },
+  {
+    "hadm_id": 22615607,
+    "video_shape": [
+      24,
+      8,
+      8
+    ],
+    "window_hours": 24.0,
+    "bin_hours": 1,
+    "n_bins": 24,
+    "video_summary": {
+      "total_cells": 1536,
+      "filled_cells": 115,
+      "fill_pct": 7.49,
+      "frames_with_data": 7,
+      "frames_empty": 17,
+      "temporal_density_pct": 29.2,
+      "total_specimens_merged": 20,
+      "specimen_ids": [
+        2365562,
+        2873348,
+        5117422,
+        9470149,
+        12457732,
+        15370881,
+        18322146,
+        21548865,
+        25907587,
+        28552107,
+        44484465,
+        47438599,
+        61225247,
+        61701256,
+        64172575,
+        70379487,
+        72364410,
+        80804467,
+        81188004,
+        94710485
+      ]
+    },
+    "frames": [
+      {
+        "bin": 0,
+        "hour_range": "0\u20131h",
+        "n_cells_filled": 25,
+        "fill_pct": 39.1,
+        "n_specimens_merged": 3,
+        "specimen_ids": [
+          9470149,
+          61225247,
+          61701256
+        ],
+        "charttimes_hours": [
+          0.82,
+          0.98
+        ],
+        "time_span_minutes": 10.0,
+        "value_min": 0.04,
+        "value_max": 99.0,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          },
+          {
+            "itemid": 51133,
+            "label": "Absolute Lymphocyte Count"
+          },
+          {
+            "itemid": 51146,
+            "label": "Basophils"
+          },
+          {
+            "itemid": 51200,
+            "label": "Eosinophils"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51244,
+            "label": "Lymphocytes"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51254,
+            "label": "Monocytes"
+          },
+          {
+            "itemid": 51256,
+            "label": "Neutrophils"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52069,
+            "label": "Absolute Basophil Count"
+          },
+          {
+            "itemid": 52073,
+            "label": "Absolute Eosinophil Count"
+          },
+          {
+            "itemid": 52074,
+            "label": "Absolute Monocyte Count"
+          },
+          {
+            "itemid": 52075,
+            "label": "Absolute Neutrophil Count"
+          },
+          {
+            "itemid": 52135,
+            "label": "Immature Granulocytes"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 1,
+        "hour_range": "1\u20132h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 2,
+        "hour_range": "2\u20133h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 3,
+        "hour_range": "3\u20134h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 4,
+        "hour_range": "4\u20135h",
+        "n_cells_filled": 1,
+        "fill_pct": 1.6,
+        "n_specimens_merged": 2,
+        "specimen_ids": [
+          2873348,
+          44484465
+        ],
+        "charttimes_hours": [
+          4.0,
+          4.58
+        ],
+        "time_span_minutes": 35.0,
+        "value_min": 18.1,
+        "value_max": 18.1,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          }
+        ]
+      },
+      {
+        "bin": 5,
+        "hour_range": "5\u20136h",
+        "n_cells_filled": 24,
+        "fill_pct": 37.5,
+        "n_specimens_merged": 5,
+        "specimen_ids": [
+          2365562,
+          5117422,
+          47438599,
+          64172575,
+          94710485
+        ],
+        "charttimes_hours": [
+          5.37,
+          5.72,
+          5.95
+        ],
+        "time_span_minutes": 35.0,
+        "value_min": 0.0,
+        "value_max": 150.0,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          },
+          {
+            "itemid": 51133,
+            "label": "Absolute Lymphocyte Count"
+          },
+          {
+            "itemid": 51146,
+            "label": "Basophils"
+          },
+          {
+            "itemid": 51200,
+            "label": "Eosinophils"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51244,
+            "label": "Lymphocytes"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51254,
+            "label": "Monocytes"
+          },
+          {
+            "itemid": 51256,
+            "label": "Neutrophils"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52069,
+            "label": "Absolute Basophil Count"
+          },
+          {
+            "itemid": 52073,
+            "label": "Absolute Eosinophil Count"
+          },
+          {
+            "itemid": 52074,
+            "label": "Absolute Monocyte Count"
+          },
+          {
+            "itemid": 52075,
+            "label": "Absolute Neutrophil Count"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 6,
+        "hour_range": "6\u20137h",
+        "n_cells_filled": 24,
+        "fill_pct": 37.5,
+        "n_specimens_merged": 4,
+        "specimen_ids": [
+          12457732,
+          18322146,
+          21548865,
+          70379487
+        ],
+        "charttimes_hours": [
+          6.32,
+          6.67,
+          6.92
+        ],
+        "time_span_minutes": 36.0,
+        "value_min": 0.0,
+        "value_max": 150.0,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          },
+          {
+            "itemid": 51133,
+            "label": "Absolute Lymphocyte Count"
+          },
+          {
+            "itemid": 51146,
+            "label": "Basophils"
+          },
+          {
+            "itemid": 51200,
+            "label": "Eosinophils"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51244,
+            "label": "Lymphocytes"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51254,
+            "label": "Monocytes"
+          },
+          {
+            "itemid": 51256,
+            "label": "Neutrophils"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52069,
+            "label": "Absolute Basophil Count"
+          },
+          {
+            "itemid": 52073,
+            "label": "Absolute Eosinophil Count"
+          },
+          {
+            "itemid": 52074,
+            "label": "Absolute Monocyte Count"
+          },
+          {
+            "itemid": 52075,
+            "label": "Absolute Neutrophil Count"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 7,
+        "hour_range": "7\u20138h",
+        "n_cells_filled": 1,
+        "fill_pct": 1.6,
+        "n_specimens_merged": 1,
+        "specimen_ids": [
+          80804467
+        ],
+        "charttimes_hours": [
+          7.42
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 15.3,
+        "value_max": 15.3,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          }
+        ]
+      },
+      {
+        "bin": 8,
+        "hour_range": "8\u20139h",
+        "n_cells_filled": 1,
+        "fill_pct": 1.6,
+        "n_specimens_merged": 1,
+        "specimen_ids": [
+          25907587
+        ],
+        "charttimes_hours": [
+          8.28
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 14.0,
+        "value_max": 14.0,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          }
+        ]
+      },
+      {
+        "bin": 9,
+        "hour_range": "9\u201310h",
+        "n_cells_filled": 39,
+        "fill_pct": 60.9,
+        "n_specimens_merged": 4,
+        "specimen_ids": [
+          15370881,
+          28552107,
+          72364410,
+          81188004
+        ],
+        "charttimes_hours": [
+          9.32,
+          9.47
+        ],
+        "time_span_minutes": 9.0,
+        "value_min": 0.0,
+        "value_max": 2453.0,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          },
+          {
+            "itemid": 50861,
+            "label": "Alanine Aminotransferase (ALT)"
+          },
+          {
+            "itemid": 50862,
+            "label": "Albumin"
+          },
+          {
+            "itemid": 50863,
+            "label": "Alkaline Phosphatase"
+          },
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50878,
+            "label": "Asparate Aminotransferase (AST)"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50885,
+            "label": "Bilirubin, Total"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50910,
+            "label": "Creatine Kinase (CK)"
+          },
+          {
+            "itemid": 50911,
+            "label": "Creatine Kinase, MB Isoenzyme"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51133,
+            "label": "Absolute Lymphocyte Count"
+          },
+          {
+            "itemid": 51146,
+            "label": "Basophils"
+          },
+          {
+            "itemid": 51200,
+            "label": "Eosinophils"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51244,
+            "label": "Lymphocytes"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51254,
+            "label": "Monocytes"
+          },
+          {
+            "itemid": 51256,
+            "label": "Neutrophils"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52069,
+            "label": "Absolute Basophil Count"
+          },
+          {
+            "itemid": 52073,
+            "label": "Absolute Eosinophil Count"
+          },
+          {
+            "itemid": 52074,
+            "label": "Absolute Monocyte Count"
+          },
+          {
+            "itemid": 52075,
+            "label": "Absolute Neutrophil Count"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 10,
+        "hour_range": "10\u201311h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 11,
+        "hour_range": "11\u201312h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 12,
+        "hour_range": "12\u201313h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 13,
+        "hour_range": "13\u201314h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 14,
+        "hour_range": "14\u201315h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 15,
+        "hour_range": "15\u201316h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 16,
+        "hour_range": "16\u201317h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 17,
+        "hour_range": "17\u201318h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 18,
+        "hour_range": "18\u201319h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 19,
+        "hour_range": "19\u201320h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 20,
+        "hour_range": "20\u201321h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 21,
+        "hour_range": "21\u201322h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 22,
+        "hour_range": "22\u201323h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 23,
+        "hour_range": "23\u201324h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      }
+    ]
+  },
+  {
+    "hadm_id": 29148245,
+    "video_shape": [
+      24,
+      8,
+      8
+    ],
+    "window_hours": 24.0,
+    "bin_hours": 1,
+    "n_bins": 24,
+    "video_summary": {
+      "total_cells": 1536,
+      "filled_cells": 173,
+      "fill_pct": 11.26,
+      "frames_with_data": 8,
+      "frames_empty": 16,
+      "temporal_density_pct": 33.3,
+      "total_specimens_merged": 22,
+      "specimen_ids": [
+        7038178,
+        9152159,
+        12546061,
+        26336605,
+        39234985,
+        39655831,
+        43252470,
+        52148406,
+        53572033,
+        53845334,
+        54616746,
+        55299564,
+        56155985,
+        59880338,
+        64987340,
+        66532317,
+        69747243,
+        73932692,
+        82918881,
+        83144800,
+        84482359,
+        92122533
+      ]
+    },
+    "frames": [
+      {
+        "bin": 0,
+        "hour_range": "0\u20131h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 1,
+        "hour_range": "1\u20132h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 2,
+        "hour_range": "2\u20133h",
+        "n_cells_filled": 41,
+        "fill_pct": 64.1,
+        "n_specimens_merged": 4,
+        "specimen_ids": [
+          54616746,
+          55299564,
+          59880338,
+          83144800
+        ],
+        "charttimes_hours": [
+          2.03,
+          2.1
+        ],
+        "time_span_minutes": 4.0,
+        "value_min": 0.0,
+        "value_max": 724.0,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          },
+          {
+            "itemid": 50861,
+            "label": "Alanine Aminotransferase (ALT)"
+          },
+          {
+            "itemid": 50863,
+            "label": "Alkaline Phosphatase"
+          },
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50878,
+            "label": "Asparate Aminotransferase (AST)"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50885,
+            "label": "Bilirubin, Total"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50911,
+            "label": "Creatine Kinase, MB Isoenzyme"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51003,
+            "label": "Troponin T"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51133,
+            "label": "Absolute Lymphocyte Count"
+          },
+          {
+            "itemid": 51146,
+            "label": "Basophils"
+          },
+          {
+            "itemid": 51200,
+            "label": "Eosinophils"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51244,
+            "label": "Lymphocytes"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51254,
+            "label": "Monocytes"
+          },
+          {
+            "itemid": 51256,
+            "label": "Neutrophils"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52069,
+            "label": "Absolute Basophil Count"
+          },
+          {
+            "itemid": 52073,
+            "label": "Absolute Eosinophil Count"
+          },
+          {
+            "itemid": 52074,
+            "label": "Absolute Monocyte Count"
+          },
+          {
+            "itemid": 52075,
+            "label": "Absolute Neutrophil Count"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 3,
+        "hour_range": "3\u20134h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 4,
+        "hour_range": "4\u20135h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 5,
+        "hour_range": "5\u20136h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 6,
+        "hour_range": "6\u20137h",
+        "n_cells_filled": 42,
+        "fill_pct": 65.6,
+        "n_specimens_merged": 4,
+        "specimen_ids": [
+          7038178,
+          26336605,
+          53845334,
+          92122533
+        ],
+        "charttimes_hours": [
+          6.13,
+          6.17
+        ],
+        "time_span_minutes": 2.0,
+        "value_min": 0.0,
+        "value_max": 3701.0,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          },
+          {
+            "itemid": 50861,
+            "label": "Alanine Aminotransferase (ALT)"
+          },
+          {
+            "itemid": 50863,
+            "label": "Alkaline Phosphatase"
+          },
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50878,
+            "label": "Asparate Aminotransferase (AST)"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50885,
+            "label": "Bilirubin, Total"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50910,
+            "label": "Creatine Kinase (CK)"
+          },
+          {
+            "itemid": 50911,
+            "label": "Creatine Kinase, MB Isoenzyme"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51003,
+            "label": "Troponin T"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51133,
+            "label": "Absolute Lymphocyte Count"
+          },
+          {
+            "itemid": 51146,
+            "label": "Basophils"
+          },
+          {
+            "itemid": 51200,
+            "label": "Eosinophils"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51244,
+            "label": "Lymphocytes"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51254,
+            "label": "Monocytes"
+          },
+          {
+            "itemid": 51256,
+            "label": "Neutrophils"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52069,
+            "label": "Absolute Basophil Count"
+          },
+          {
+            "itemid": 52073,
+            "label": "Absolute Eosinophil Count"
+          },
+          {
+            "itemid": 52074,
+            "label": "Absolute Monocyte Count"
+          },
+          {
+            "itemid": 52075,
+            "label": "Absolute Neutrophil Count"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 7,
+        "hour_range": "7\u20138h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 8,
+        "hour_range": "8\u20139h",
+        "n_cells_filled": 1,
+        "fill_pct": 1.6,
+        "n_specimens_merged": 1,
+        "specimen_ids": [
+          43252470
+        ],
+        "charttimes_hours": [
+          8.48
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 5.6,
+        "value_max": 5.6,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          }
+        ]
+      },
+      {
+        "bin": 9,
+        "hour_range": "9\u201310h",
+        "n_cells_filled": 1,
+        "fill_pct": 1.6,
+        "n_specimens_merged": 1,
+        "specimen_ids": [
+          52148406
+        ],
+        "charttimes_hours": [
+          9.85
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 5.5,
+        "value_max": 5.5,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          }
+        ]
+      },
+      {
+        "bin": 10,
+        "hour_range": "10\u201311h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 11,
+        "hour_range": "11\u201312h",
+        "n_cells_filled": 23,
+        "fill_pct": 35.9,
+        "n_specimens_merged": 3,
+        "specimen_ids": [
+          9152159,
+          12546061,
+          82918881
+        ],
+        "charttimes_hours": [
+          11.68,
+          11.98
+        ],
+        "time_span_minutes": 18.0,
+        "value_min": 0.3,
+        "value_max": 7098.0,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          },
+          {
+            "itemid": 50861,
+            "label": "Alanine Aminotransferase (ALT)"
+          },
+          {
+            "itemid": 50863,
+            "label": "Alkaline Phosphatase"
+          },
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50878,
+            "label": "Asparate Aminotransferase (AST)"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50885,
+            "label": "Bilirubin, Total"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50910,
+            "label": "Creatine Kinase (CK)"
+          },
+          {
+            "itemid": 50911,
+            "label": "Creatine Kinase, MB Isoenzyme"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50954,
+            "label": "Lactate Dehydrogenase (LD)"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51003,
+            "label": "Troponin T"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          }
+        ]
+      },
+      {
+        "bin": 12,
+        "hour_range": "12\u201313h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 13,
+        "hour_range": "13\u201314h",
+        "n_cells_filled": 1,
+        "fill_pct": 1.6,
+        "n_specimens_merged": 1,
+        "specimen_ids": [
+          69747243
+        ],
+        "charttimes_hours": [
+          13.4
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 4.4,
+        "value_max": 4.4,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          }
+        ]
+      },
+      {
+        "bin": 14,
+        "hour_range": "14\u201315h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 15,
+        "hour_range": "15\u201316h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 16,
+        "hour_range": "16\u201317h",
+        "n_cells_filled": 33,
+        "fill_pct": 51.6,
+        "n_specimens_merged": 4,
+        "specimen_ids": [
+          39234985,
+          39655831,
+          64987340,
+          84482359
+        ],
+        "charttimes_hours": [
+          16.53,
+          16.92
+        ],
+        "time_span_minutes": 23.0,
+        "value_min": 0.5,
+        "value_max": 8168.0,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          },
+          {
+            "itemid": 50861,
+            "label": "Alanine Aminotransferase (ALT)"
+          },
+          {
+            "itemid": 50863,
+            "label": "Alkaline Phosphatase"
+          },
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50878,
+            "label": "Asparate Aminotransferase (AST)"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50885,
+            "label": "Bilirubin, Total"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50910,
+            "label": "Creatine Kinase (CK)"
+          },
+          {
+            "itemid": 50911,
+            "label": "Creatine Kinase, MB Isoenzyme"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50954,
+            "label": "Lactate Dehydrogenase (LD)"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51003,
+            "label": "Troponin T"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 17,
+        "hour_range": "17\u201318h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 18,
+        "hour_range": "18\u201319h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 19,
+        "hour_range": "19\u201320h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 20,
+        "hour_range": "20\u201321h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 21,
+        "hour_range": "21\u201322h",
+        "n_cells_filled": 31,
+        "fill_pct": 48.4,
+        "n_specimens_merged": 4,
+        "specimen_ids": [
+          53572033,
+          56155985,
+          66532317,
+          73932692
+        ],
+        "charttimes_hours": [
+          21.2,
+          21.77
+        ],
+        "time_span_minutes": 34.0,
+        "value_min": 0.4,
+        "value_max": 2278.0,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          },
+          {
+            "itemid": 50861,
+            "label": "Alanine Aminotransferase (ALT)"
+          },
+          {
+            "itemid": 50862,
+            "label": "Albumin"
+          },
+          {
+            "itemid": 50863,
+            "label": "Alkaline Phosphatase"
+          },
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50878,
+            "label": "Asparate Aminotransferase (AST)"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50885,
+            "label": "Bilirubin, Total"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50954,
+            "label": "Lactate Dehydrogenase (LD)"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 22,
+        "hour_range": "22\u201323h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 23,
+        "hour_range": "23\u201324h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      }
+    ]
+  },
+  {
+    "hadm_id": 24800275,
+    "video_shape": [
+      24,
+      8,
+      8
+    ],
+    "window_hours": 24.0,
+    "bin_hours": 1,
+    "n_bins": 24,
+    "video_summary": {
+      "total_cells": 1536,
+      "filled_cells": 200,
+      "fill_pct": 13.02,
+      "frames_with_data": 6,
+      "frames_empty": 18,
+      "temporal_density_pct": 25.0,
+      "total_specimens_merged": 18,
+      "specimen_ids": [
+        1350754,
+        6596386,
+        12712244,
+        14778402,
+        14831953,
+        17608422,
+        23464247,
+        41793645,
+        45405263,
+        49133896,
+        61910816,
+        77906732,
+        80161075,
+        80347768,
+        85098567,
+        87089288,
+        91041088,
+        91612014
+      ]
+    },
+    "frames": [
+      {
+        "bin": 0,
+        "hour_range": "0\u20131h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 1,
+        "hour_range": "1\u20132h",
+        "n_cells_filled": 40,
+        "fill_pct": 62.5,
+        "n_specimens_merged": 3,
+        "specimen_ids": [
+          17608422,
+          45405263,
+          80347768
+        ],
+        "charttimes_hours": [
+          1.07
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 0.0,
+        "value_max": 2280.0,
+        "labs_present": [
+          {
+            "itemid": 50861,
+            "label": "Alanine Aminotransferase (ALT)"
+          },
+          {
+            "itemid": 50862,
+            "label": "Albumin"
+          },
+          {
+            "itemid": 50863,
+            "label": "Alkaline Phosphatase"
+          },
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50878,
+            "label": "Asparate Aminotransferase (AST)"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50885,
+            "label": "Bilirubin, Total"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50954,
+            "label": "Lactate Dehydrogenase (LD)"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51133,
+            "label": "Absolute Lymphocyte Count"
+          },
+          {
+            "itemid": 51146,
+            "label": "Basophils"
+          },
+          {
+            "itemid": 51200,
+            "label": "Eosinophils"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51244,
+            "label": "Lymphocytes"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51254,
+            "label": "Monocytes"
+          },
+          {
+            "itemid": 51256,
+            "label": "Neutrophils"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52069,
+            "label": "Absolute Basophil Count"
+          },
+          {
+            "itemid": 52073,
+            "label": "Absolute Eosinophil Count"
+          },
+          {
+            "itemid": 52074,
+            "label": "Absolute Monocyte Count"
+          },
+          {
+            "itemid": 52075,
+            "label": "Absolute Neutrophil Count"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 2,
+        "hour_range": "2\u20133h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 3,
+        "hour_range": "3\u20134h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 4,
+        "hour_range": "4\u20135h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 5,
+        "hour_range": "5\u20136h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 6,
+        "hour_range": "6\u20137h",
+        "n_cells_filled": 15,
+        "fill_pct": 23.4,
+        "n_specimens_merged": 3,
+        "specimen_ids": [
+          1350754,
+          14778402,
+          85098567
+        ],
+        "charttimes_hours": [
+          6.42,
+          6.65
+        ],
+        "time_span_minutes": 14.0,
+        "value_min": 1.5,
+        "value_max": 132.0,
+        "labs_present": [
+          {
+            "itemid": 50813,
+            "label": "Lactate"
+          },
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          }
+        ]
+      },
+      {
+        "bin": 7,
+        "hour_range": "7\u20138h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 8,
+        "hour_range": "8\u20139h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 9,
+        "hour_range": "9\u201310h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 10,
+        "hour_range": "10\u201311h",
+        "n_cells_filled": 39,
+        "fill_pct": 60.9,
+        "n_specimens_merged": 3,
+        "specimen_ids": [
+          61910816,
+          80161075,
+          91612014
+        ],
+        "charttimes_hours": [
+          10.38
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 0.0,
+        "value_max": 1012.0,
+        "labs_present": [
+          {
+            "itemid": 50861,
+            "label": "Alanine Aminotransferase (ALT)"
+          },
+          {
+            "itemid": 50863,
+            "label": "Alkaline Phosphatase"
+          },
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50878,
+            "label": "Asparate Aminotransferase (AST)"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50885,
+            "label": "Bilirubin, Total"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50954,
+            "label": "Lactate Dehydrogenase (LD)"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51133,
+            "label": "Absolute Lymphocyte Count"
+          },
+          {
+            "itemid": 51146,
+            "label": "Basophils"
+          },
+          {
+            "itemid": 51200,
+            "label": "Eosinophils"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51244,
+            "label": "Lymphocytes"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51254,
+            "label": "Monocytes"
+          },
+          {
+            "itemid": 51256,
+            "label": "Neutrophils"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52069,
+            "label": "Absolute Basophil Count"
+          },
+          {
+            "itemid": 52073,
+            "label": "Absolute Eosinophil Count"
+          },
+          {
+            "itemid": 52074,
+            "label": "Absolute Monocyte Count"
+          },
+          {
+            "itemid": 52075,
+            "label": "Absolute Neutrophil Count"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 11,
+        "hour_range": "11\u201312h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 12,
+        "hour_range": "12\u201313h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 13,
+        "hour_range": "13\u201314h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 14,
+        "hour_range": "14\u201315h",
+        "n_cells_filled": 38,
+        "fill_pct": 59.4,
+        "n_specimens_merged": 3,
+        "specimen_ids": [
+          6596386,
+          23464247,
+          87089288
+        ],
+        "charttimes_hours": [
+          14.23
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 0.0,
+        "value_max": 1183.0,
+        "labs_present": [
+          {
+            "itemid": 50861,
+            "label": "Alanine Aminotransferase (ALT)"
+          },
+          {
+            "itemid": 50863,
+            "label": "Alkaline Phosphatase"
+          },
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50885,
+            "label": "Bilirubin, Total"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50954,
+            "label": "Lactate Dehydrogenase (LD)"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51133,
+            "label": "Absolute Lymphocyte Count"
+          },
+          {
+            "itemid": 51146,
+            "label": "Basophils"
+          },
+          {
+            "itemid": 51200,
+            "label": "Eosinophils"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51244,
+            "label": "Lymphocytes"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51254,
+            "label": "Monocytes"
+          },
+          {
+            "itemid": 51256,
+            "label": "Neutrophils"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52069,
+            "label": "Absolute Basophil Count"
+          },
+          {
+            "itemid": 52073,
+            "label": "Absolute Eosinophil Count"
+          },
+          {
+            "itemid": 52074,
+            "label": "Absolute Monocyte Count"
+          },
+          {
+            "itemid": 52075,
+            "label": "Absolute Neutrophil Count"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 15,
+        "hour_range": "15\u201316h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 16,
+        "hour_range": "16\u201317h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 17,
+        "hour_range": "17\u201318h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 18,
+        "hour_range": "18\u201319h",
+        "n_cells_filled": 29,
+        "fill_pct": 45.3,
+        "n_specimens_merged": 3,
+        "specimen_ids": [
+          12712244,
+          41793645,
+          91041088
+        ],
+        "charttimes_hours": [
+          18.7
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 1.4,
+        "value_max": 1008.0,
+        "labs_present": [
+          {
+            "itemid": 50861,
+            "label": "Alanine Aminotransferase (ALT)"
+          },
+          {
+            "itemid": 50863,
+            "label": "Alkaline Phosphatase"
+          },
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50878,
+            "label": "Asparate Aminotransferase (AST)"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50885,
+            "label": "Bilirubin, Total"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50954,
+            "label": "Lactate Dehydrogenase (LD)"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      },
+      {
+        "bin": 19,
+        "hour_range": "19\u201320h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 20,
+        "hour_range": "20\u201321h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 21,
+        "hour_range": "21\u201322h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 22,
+        "hour_range": "22\u201323h",
+        "n_cells_filled": 0,
+        "fill_pct": 0.0,
+        "n_specimens_merged": 0,
+        "specimen_ids": [],
+        "charttimes_hours": [],
+        "time_span_minutes": 0.0
+      },
+      {
+        "bin": 23,
+        "hour_range": "23\u201324h",
+        "n_cells_filled": 39,
+        "fill_pct": 60.9,
+        "n_specimens_merged": 3,
+        "specimen_ids": [
+          14831953,
+          49133896,
+          77906732
+        ],
+        "charttimes_hours": [
+          23.72
+        ],
+        "time_span_minutes": 0.0,
+        "value_min": 0.0,
+        "value_max": 959.0,
+        "labs_present": [
+          {
+            "itemid": 50861,
+            "label": "Alanine Aminotransferase (ALT)"
+          },
+          {
+            "itemid": 50863,
+            "label": "Alkaline Phosphatase"
+          },
+          {
+            "itemid": 50868,
+            "label": "Anion Gap"
+          },
+          {
+            "itemid": 50878,
+            "label": "Asparate Aminotransferase (AST)"
+          },
+          {
+            "itemid": 50882,
+            "label": "Bicarbonate"
+          },
+          {
+            "itemid": 50885,
+            "label": "Bilirubin, Total"
+          },
+          {
+            "itemid": 50893,
+            "label": "Calcium, Total"
+          },
+          {
+            "itemid": 50902,
+            "label": "Chloride"
+          },
+          {
+            "itemid": 50912,
+            "label": "Creatinine"
+          },
+          {
+            "itemid": 50931,
+            "label": "Glucose"
+          },
+          {
+            "itemid": 50954,
+            "label": "Lactate Dehydrogenase (LD)"
+          },
+          {
+            "itemid": 50960,
+            "label": "Magnesium"
+          },
+          {
+            "itemid": 50970,
+            "label": "Phosphate"
+          },
+          {
+            "itemid": 50971,
+            "label": "Potassium"
+          },
+          {
+            "itemid": 50983,
+            "label": "Sodium"
+          },
+          {
+            "itemid": 51006,
+            "label": "Urea Nitrogen"
+          },
+          {
+            "itemid": 51133,
+            "label": "Absolute Lymphocyte Count"
+          },
+          {
+            "itemid": 51146,
+            "label": "Basophils"
+          },
+          {
+            "itemid": 51200,
+            "label": "Eosinophils"
+          },
+          {
+            "itemid": 51221,
+            "label": "Hematocrit"
+          },
+          {
+            "itemid": 51222,
+            "label": "Hemoglobin"
+          },
+          {
+            "itemid": 51237,
+            "label": "INR(PT)"
+          },
+          {
+            "itemid": 51244,
+            "label": "Lymphocytes"
+          },
+          {
+            "itemid": 51248,
+            "label": "MCH"
+          },
+          {
+            "itemid": 51249,
+            "label": "MCHC"
+          },
+          {
+            "itemid": 51250,
+            "label": "MCV"
+          },
+          {
+            "itemid": 51254,
+            "label": "Monocytes"
+          },
+          {
+            "itemid": 51256,
+            "label": "Neutrophils"
+          },
+          {
+            "itemid": 51265,
+            "label": "Platelet Count"
+          },
+          {
+            "itemid": 51274,
+            "label": "PT"
+          },
+          {
+            "itemid": 51275,
+            "label": "PTT"
+          },
+          {
+            "itemid": 51277,
+            "label": "RDW"
+          },
+          {
+            "itemid": 51279,
+            "label": "Red Blood Cells"
+          },
+          {
+            "itemid": 51301,
+            "label": "White Blood Cells"
+          },
+          {
+            "itemid": 52069,
+            "label": "Absolute Basophil Count"
+          },
+          {
+            "itemid": 52073,
+            "label": "Absolute Eosinophil Count"
+          },
+          {
+            "itemid": 52074,
+            "label": "Absolute Monocyte Count"
+          },
+          {
+            "itemid": 52075,
+            "label": "Absolute Neutrophil Count"
+          },
+          {
+            "itemid": 52172,
+            "label": "RDW-SD"
+          }
+        ]
+      }
+    ]
+  }
+]

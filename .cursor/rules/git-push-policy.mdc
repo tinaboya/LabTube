@@ -1,0 +1,43 @@
+---
+description: Git push policy — what to commit and what to never commit for this project
+alwaysApply: true
+---
+
+# Git Push Policy for Latte
+
+## NEVER commit or push
+
+| Path | Reason |
+|------|--------|
+| `MIMIC4/` | Restricted PhysioNet clinical data (23 GB) — data use agreement violation |
+| `eICU/` | Restricted PhysioNet clinical data (2.2 GB) — data use agreement violation |
+| `physionet.org/` | PhysioNet data files (83 MB) — restricted |
+| `lab_videos/*.npy` | Generated binary data (1.6 GB) — too large, reproducible from pipeline |
+| `lab_images/*.npy` | Generated binary data — reproducible from pipeline |
+| `lab_videos_normalized/*.npy` | Generated binary data — reproducible from pipeline |
+| `.venv/` | Python virtual environment — never committed |
+| `*.log` | Log output files |
+| `.DS_Store` | macOS metadata |
+| `.tmp/` | Temporary files |
+| `__pycache__/`, `*.pyc` | Python bytecode cache |
+
+## ALWAYS commit and push
+
+| Path | Reason |
+|------|--------|
+| `scripts/*.py` | All pipeline Python scripts |
+| `docs/*.md` | Markdown reports and documentation |
+| `docs/figures/` | Analysis figures (images, ~1.2 MB total) |
+| `pyproject.toml` | Project metadata and dependencies |
+| `requirements.txt` | Pip-compatible requirements |
+| `uv.lock` | Reproducible dependency lock file |
+| `frame_layout.txt` | Grid layout specification |
+| `labtube.png` | Project figure |
+| `lab_videos_normalized/*.json` | Small metadata JSON files |
+| `.gitignore` | This repo's ignore rules |
+
+## Before every commit
+
+1. Run `git status` and verify no `MIMIC4/`, `eICU/`, or `*.npy` files appear as staged.
+2. Run `git diff --cached --stat` to review what is being committed.
+3. If any restricted data files appear, run `git reset HEAD <file>` to unstage them immediately.
