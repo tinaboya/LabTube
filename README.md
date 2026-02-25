@@ -82,6 +82,9 @@ pip install -r requirements.txt
 
 **Data access:** This project requires access to [MIMIC-IV](https://physionet.org/content/mimiciv/) and [eICU-CRD](https://physionet.org/content/eicu-crd/) via PhysioNet. Data files are **not** included in this repository.
 
+**Data Access**
+To facilitate the data download process, the `scripts/download_raw_data.py` script can be used to download from BigQuery into Parquet format. This script requires access to the bigquery physionet tables and appropriate Google Cloud CLI Authentication. (Login with `gcloud auth application` and set the `GOOGLE_CLOUD_PROJECT` in the .env file, example in .env.sample)
+
 ---
 
 ## Running the Pipeline
