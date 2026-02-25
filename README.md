@@ -10,7 +10,7 @@
 
 ## Overview
 
-**Latte** converts hospital admissions into video tensors for self-supervised pre-training with VideoMAE-style masked autoencoders.
+**LabTube** converts hospital admissions into video tensors for self-supervised pre-training with VideoMAE-style masked autoencoders.
 
 Each admission becomes a video of shape **(T, H, W)**:
 
@@ -49,7 +49,7 @@ MIMIC-IV / eICU raw CSVs
 ## Project Structure
 
 ```
-Latte/
+LabTube/
 ├── scripts/                  # All pipeline Python scripts
 │   ├── config.py             # Paths and global settings
 │   ├── run_pipeline.py       # End-to-end pipeline runner
