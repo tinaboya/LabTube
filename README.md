@@ -1,12 +1,10 @@
-<p align="center">
-  <img src="labtube.png" alt="Latte logo" width="180"/>
-</p>
-
-<h1 align="center">LabTube</h1>
+# LabTube
 
 <p align="center">
-  <em>VideoMAE-style pre-training on ICU lab time series from MIMIC-IV and eICU</em>
+  <img src="labtube.svg" alt="LabTube logo" width="280"/>
 </p>
+
+> *VideoMAE-style pre-training on ICU lab time series from MIMIC-IV and eICU*
 
 ---
 

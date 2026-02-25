@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" width="280" height="80">
+  <!-- LabTube text only -->
+  <text x="4" y="62" font-family="'Nunito', 'Poppins', 'Arial Rounded MT Bold', Arial, sans-serif"
+        font-size="52" font-weight="800" letter-spacing="-1">
+    <tspan fill="#1a1aff">Lab</tspan><tspan fill="#00bfbf">Tube</tspan>
+  </text>
+</svg>
