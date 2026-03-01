@@ -27,7 +27,7 @@ The model learns temporal and cross-lab patterns purely from the structure of IC
 ## Pipeline
 
 ```
-MIMIC-IV / eICU raw CSVs
+MIMIC-IV 
         │
         ▼
    csv_to_parquet.py        — convert raw CSVs to Parquet
@@ -44,6 +44,20 @@ MIMIC-IV / eICU raw CSVs
    lab_videos_normalized/   — ready for VideoMAE training
 ```
 
+```
+eICU
+        │
+        ▼
+   scripts/download_raw_data.py   — download raw data from BigQuery
+        │
+        ▼
+   scripts/eicu/admission_to_video.py    — stack specimens into (T, H, W) video tensors [ This is eICU-specific script due to the data structure]
+        │
+        ▼
+   scripts/normalize_videos.py      — z-score normalization per lab channel
+        │
+        ▼
+   lab_videos_normalized/   — ready for VideoMAE training
 ---
 
 ## Project Structure
@@ -87,7 +101,7 @@ To facilitate the data download process, the `scripts/download_raw_data.py` scri
 
 ---
 
-## Running the Pipeline
+## Running the Pipeline (MIMIC-IV)
 
 ```bash
 # Run the full pipeline end-to-end
@@ -98,6 +112,24 @@ python scripts/csv_to_parquet.py
 python scripts/lab_with_admissions.py
 python scripts/admission_to_video.py
 python scripts/normalize_videos.py
+```
+
+## Running the Pipeline (eICU)
+
+```bash
+# running from the root directory
+# Download the raw data
+uv run scripts/download_raw_data.py --dataset eicu --sql eicu_lab_events_with_adm.sql --format parquet
+uv run scripts/download_raw_data.py --dataset eicu --sql eicu_vocab_labs.sql
+
+# Run video building
+uv run scripts/eicu/admission_to_video.py --parquet eICU/lab_events_with_adm.parquet --d-labitems eICU/vocab_labs.csv --output_dir eicu_lab_videos
+
+# Run normalization
+uv run scripts/normalize_videos.py --input_dir eicu_lab_videos --output_dir eicu_lab_videos_normalized
+
+# (Optional for EDA)
+uv run scripts/visualize_videos.py --input_dir eicu_lab_videos --output_dir eicu_videos_figures
 ```
 
 ---
