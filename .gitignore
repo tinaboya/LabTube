@@ -17,6 +17,8 @@ physionet.org/
 lab_videos/
 lab_images/
 lab_videos_normalized/*.npy
+eicu_lab_videos/
+eicu_lab_videos_normalized/*.npy
 
 # ============================================================
 # LOG FILES

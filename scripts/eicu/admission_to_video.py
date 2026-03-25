@@ -48,6 +48,7 @@ import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from config import DEFAULT_LAB_WITH_ADM_PARQUET, DEFAULT_D_LABITEMS
+from schema_utils import _col_expr, _quote_ident, _specimen_expr, resolve_schema_columns
 
 
 # ── Artifact / hold codes to exclude from grid ───────────────────────
@@ -65,60 +66,6 @@ EXCLUDE_ITEMIDS = {
     50919,  # EDTA Hold
     51087,  # Length of Urine Collection (duration, not a lab value)
 }
-
-
-def _quote_ident(col: str) -> str:
-    """Safely quote a DuckDB identifier."""
-    return '"' + col.replace('"', '""') + '"'
-
-
-def _col_expr(cols: dict[str, str | None], key: str, alias: str | None = None) -> str:
-    """Return a quoted column expression, optionally with table alias."""
-    col = cols.get(key)
-    if not col:
-        raise ValueError(f"Missing required mapped column: {key}")
-    q = _quote_ident(col)
-    return f"{alias}.{q}" if alias else q
-
-
-def _specimen_expr(cols: dict[str, str | None], alias: str | None = None) -> str:
-    """
-    Return expression used as specimen key.
-
-    If `specimen_id` is absent (common in eICU extracts), fallback to charttime
-    as a deterministic surrogate for counting merged collections.
-    """
-    prefix = f"{alias}." if alias else ""
-    if cols.get("specimen_id"):
-        return f"CAST({prefix}{_quote_ident(cols['specimen_id'])} AS VARCHAR)"
-    return f"CAST({prefix}{_quote_ident(cols['charttime'])} AS VARCHAR)"
-
-
-def resolve_schema_columns(con, pq: str) -> dict[str, str | None]:
-    """Map canonical names to actual parquet columns (MIMIC-IV vs eICU)."""
-    schema_rows = con.execute(f"DESCRIBE SELECT * FROM read_parquet('{pq}')").fetchall()
-    available = {str(r[0]).lower(): str(r[0]) for r in schema_rows}
-
-    def pick(candidates: list[str], required: bool = True) -> str | None:
-        for c in candidates:
-            if c.lower() in available:
-                return available[c.lower()]
-        if required:
-            raise ValueError(
-                f"Could not find any of {candidates} in parquet columns: "
-                f"{sorted(available.values())}"
-            )
-        return None
-
-    return {
-        "hadm_id": pick(["hadm_id", "patientunitstayid"]),
-        "itemid": pick(["itemid", "lab_code"]),
-        "valuenum": pick(["valuenum", "labresult"]),
-        "charttime": pick(["charttime"]),
-        "admittime": pick(["admittime"]),
-        "specimen_id": pick(["specimen_id"], required=False),
-    }
-
 
 def select_top_labs(
     con,

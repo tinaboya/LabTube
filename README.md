@@ -58,7 +58,7 @@ eICU
         │
         ▼
    lab_videos_normalized/   — ready for VideoMAE training
----
+```
 
 ## Project Structure
 
@@ -104,6 +104,11 @@ To facilitate the data download process, the `scripts/download_raw_data.py` scri
 ## Running the Pipeline (MIMIC-IV)
 
 ```bash
+# (Optional Download data from BigQuery, if downloading this way the csv_to_parquet step can be skipped)
+uv run scripts/download_raw_data.py --dataset mimiciv --sql mimiciv_lab_events
+uv run scripts/download_raw_data.py --dataset mimiciv --sql mimiciv_all_admissions
+uv run scripts/download_raw_data.py --dataset mimiciv --sql mimiciv_vocab_labs
+
 # Run the full pipeline end-to-end
 python scripts/run_pipeline.py
 
