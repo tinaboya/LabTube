@@ -98,6 +98,37 @@ Options: `--skip-vocab` to skip joining lab labels from `d_labitems`; `--filter-
 python scripts/run_pipeline.py --convert --limit-specimens 50
 ```
 
+## Lab State Embedding Experiments (Config-Driven)
+
+Run the notebook-style lab-state experiment as a script with one or many lab configs.
+
+Config file:
+
+- `scripts/lab_state_experiement_config.py`
+
+Runner script:
+
+- `scripts/lab_state_experiment.py`
+
+Examples:
+
+```bash
+# Run all configured experiments
+python scripts/lab_state_experiment.py
+
+# Run specific experiments by name
+python scripts/lab_state_experiment.py --experiments hematocrit sodium
+
+# Tune embedding extraction batch size
+python scripts/lab_state_experiment.py --batch-size 128
+```
+
+Each experiment writes to its own directory:
+
+- `data_lab_state/<experiment_name>/`
+
+Outputs include cached anchors/lab windows/embeddings, plots, and summary tables.
+
 ## Module overview
 
 | File | Role |

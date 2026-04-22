@@ -19,7 +19,9 @@ lab_images/
 lab_videos_normalized/*.npy
 eicu_lab_videos/
 eicu_lab_videos_normalized/*.npy
-
+mimic_transfusion/
+data*
+results/
 # ============================================================
 # LOG FILES
 # ============================================================
@@ -58,8 +60,10 @@ build/
 
 # ============================================================
 # JUPYTER
+# this is for testing and demoing
 # ============================================================
 .ipynb_checkpoints/
+notebooks/
 
 # ============================================================
 # WHAT IS TRACKED (for reference)
